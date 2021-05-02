@@ -40,7 +40,7 @@ def sign_in():
         }
     )
 
-    auth_uri = f"https://auth.truelayer.com/?{query}"
+    auth_uri = f"https://auth.truelayer-sandbox.com/?{query}"
     return f'Connect you bank account <a href="{auth_uri}" target="_blank">here</a>'
 
 
